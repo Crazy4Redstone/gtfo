@@ -2,7 +2,7 @@
 
 // Variables:
 
-
+var Damage = Level.getData (x,y,z)
 
 // Blocks:
 
@@ -26,7 +26,6 @@ Block.setRenderLayer (69,1)
 
 function useItem (x,y,z,i,b,side)
 {
-var Damage = Level.getdata (x,y,z)
 if (b == 69 && Damage == 0)
   {
 	setTile (x,y,z,69,1)
